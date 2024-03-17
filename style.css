@@ -1,0 +1,655 @@
+
+.total_body{
+	background-image: url(image/background-img.jpg);
+	height: 2000px;
+	background-position: fixed;
+}
+
+/*
+============================================================================================================================
+|     												Navigation 															   |
+============================================================================================================================
+*/
+
+.navigation{
+	background-color: #40352F;
+}
+.navigation hr{
+	padding: 0%;
+	margin: .3% 0% 0% 0%;
+}
+
+#nav li a{
+	color: #fff;
+	opacity: 1;
+}
+
+#nav li a:hover{
+	background-color: #433C36;
+	opacity: .5;
+}
+
+.last-li a{
+	
+}
+#active{
+	background-color: #433C36;
+	opacity: .5;
+}
+.top{
+	height: 30px;
+}
+
+/*
+========================================================================================================================
+|													Slider 															   |
+========================================================================================================================
+*/
+
+.slider{
+	margin: -1.4% 0% 0% 0%;
+	padding: 0%;
+}
+.slider-botton-text{
+	background-color: #FBFBF9;
+	font-size: 18px;
+	color: #6C503A;
+	text-align: center;
+	padding:2% 0% 1% 0%;
+	-webkit-padding:2% 0% 1% 0%;
+	-moz-padding:2% 0% 1% 0%;
+	-o-padding:2% 0% 1% 0%;
+	border-bottom: 1px solid #F4F4EC;
+}
+.slider-botton-text2{
+	font-size: 12px;
+	color: #B4AA9E;
+}
+
+/*
+============================================================================================================
+|								Registation    And      Login  Page                                        |
+============================================================================================================
+*/
+
+#first_name{
+	width: 60%;
+}
+
+#last_name{
+	width:60%;
+}
+
+#email{
+	width:60%;
+}
+
+#date_of_birth{
+	width:60%;
+}
+
+#password{
+	width: 60%;
+}
+
+#user_name{
+	width: 60%;
+}
+.total-body{
+	margin:0% 0% 0% 25%;
+	-webkit-margin:0% 0% 0% 25%;
+	-moz-margin:0% 0% 0% 25%;
+	-o-margin:0% 0% 0% 25%;
+}
+
+.form-group input[type='submit']{
+	margin-right: 5%;
+	-o-margin-right: 5%;
+	-webkit-margin-right: 5%;
+	-moz-margin-right: 5%;
+}
+
+.form-group input[type='text']{
+	margin: 1% 0% 1% 0%;
+	-moz-margin: 1% 0% 1% 0%;
+	-webkit-margin: 1% 0% 1% 0%;
+	-o-margin: 1% 0% 1% 0%;
+}
+
+.form-group input[type='password']{
+	margin: 1% 0% 1% 0%;
+	-moz-margin: 1% 0% 1% 0%;
+	-webkit-margin: 1% 0% 1% 0%;
+	-o-margin: 1% 0% 1% 0%;
+}
+
+.form-group input[type='email']{
+	margin: 1% 0% 1% 0%;
+	-o-margin: 1% 0% 1% 0%;
+	-webkit-margin: 1% 0% 1% 0%;
+	-moz-margin: 1% 0% 1% 0%;
+}
+
+
+/*
+======================================================================================================================
+|										Main Body Part 	column;s size												 |
+======================================================================================================================
+*/
+
+.body-part{
+	background-color: #fff;
+}
+
+.headder{
+		margin-top: 3%;
+		margin-right: 1%;
+		background-image: url(image/header-image.jpg);
+}
+
+.headder2{
+		margin-top: 3%;
+		margin-left: 1%;
+		background-image: url(image/header-image.jpg);
+}
+
+.headder-last{
+	margin-top: 3%;
+	background-image: url(image/header-image.jpg);
+
+}
+
+.headder-last2{
+	margin-top: 3%;
+	margin-left:1%;
+	margin-right: 1%;
+	background-image: url(image/header-image.jpg);
+
+}
+
+.headder-image{
+	padding: 0% 0% 0% 8%;
+	font-size: 22px;
+	
+}
+
+.headder-image-last{
+	padding: 0% 0% 0% 8%;
+	font-size: 22px;	
+}
+
+.special{
+	margin-top: 3%;
+	margin-left:1%;
+	margin-right: 1%;
+	text-align: justify;
+	padding-bottom: 1.5%;
+	border-bottom: 1px solid #bbb;
+}
+
+
+/*
+=========================================================================================================================
+|												Calender Table 												            |
+=========================================================================================================================
+*/
+th, td {
+    padding: 4px 6px 4px 6px;
+}
+table, th, td {
+    border:1px solid #ddd;
+    font-size: 15px;
+    text-align: center;
+}
+table td:hover{
+	cursor: pointer;
+	background-color:#9FF781;
+}
+table tr .table-icon{
+	text-align: left;
+}
+table tr .table-icon:hover{
+	background-color:#fff;
+}
+
+.reserve-table{
+	width: 45%;
+	color: #fff;
+	background-color:#7AA15E ;
+	padding: 1.5% 2.5% 1.5% 5.5%;
+	border-radius:20px;
+	cursor:pointer;
+}
+
+/*
+============================================================================================================================
+|											First Row Second Column 													   |
+============================================================================================================================
+*/
+
+.sample-image{
+	margin-left: .5%;
+	margin-right: 3%;
+	padding-top: 2%;
+}
+
+.sample-image img{
+	margin:1% 3% 1% 0%;
+	float: left;
+}
+
+.sample-image-number{
+	color: #aaa;
+}
+
+.sample-image-text{
+	color: #9086A1;
+	padding: 0%;
+	margin: 0%;
+	font-size: 12px;
+}
+
+.sample-image-second-row{
+	background-color: #F6F4F4;
+	cursor: pointer;
+	border-top: 1px solid #F0EEEE;
+	border-bottom: #F0EEEE;
+}
+
+.sample-image-first-row{
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.view-menu{
+	color: #aaa;
+	padding: 4% 0% 2% 0%;
+	cursor: pointer;
+}
+
+/*
+====================================================================================================================
+|											First Row Second And Third Column						               |
+====================================================================================================================
+*/
+
+.location{
+	margin: 2% 0% 2% 1%; 
+
+}
+.location-text-top{
+	font-size: 11px;
+	color: #bbb;
+	padding: 0% 0% 0% 2%;
+}
+
+.location-image{
+	margin: 2% 0% 2% 1%; 
+}
+
+.location-bottom-text1{
+	border-right: 1px solid #aaa;
+	margin: 0% 0% 0% 7%;
+	padding: 2% 1% 1% 1%;
+	float: left;
+}
+
+.location-bottom-text2{
+	padding: 2% 1% 1% 5%;
+	color: #848484;
+}
+
+/*
+============================================================================================================================
+|												First Row Devider 											               |
+============================================================================================================================
+*/
+
+.first-row-devider{
+	background-color: #ccc;
+	height:5px;
+	margin-top: 5px;
+}
+
+/*
+==========================================================================================================================
+|														Staff Column 											         |
+==========================================================================================================================
+*/
+
+.staf{
+	margin:3% 1% 1% 6%;
+}
+
+.staf-image1 img{
+	margin: 1% 3% 2% 0%;
+	float: left;
+}
+
+.staf-image1:hover{
+	cursor: pointer;
+	background-color:#eee;
+
+}
+
+.staf-image1{
+	border-bottom: 1px solid #bbb;
+}
+
+.staf-text{
+	font-size: 14px;
+	color:#aaa;
+}
+
+.staf-second-row{
+	background-color:#F6F4F4;
+}
+
+.staf-icon{
+	color: #ccc; 
+}
+/*
+======================================================================================================================
+|											Second Row Third Column								                     |
+======================================================================================================================
+*/
+
+.second-row-3-col{
+	margin: 2% 0% 0% 2%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 4%;
+}
+
+.col-3-image img{
+	clear: left;
+	margin: 1% 3% 3% 0%;
+	float: left; 
+}
+.col-3-image{
+	padding-bottom:3%; 
+	cursor: pointer;
+}
+
+.col-3-image:hover{
+	background-color:#eee;
+}
+
+.col-3-image2{
+	background-color: #F6F4F4;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.col-3-image2 img{
+	clear: left;
+	margin: 1% 3% 2% 0%;
+	float: left; 
+}
+
+.col-3-image2:hover{
+	cursor: pointer;
+	background-color:#eee;
+}
+
+/*
+===============================================================================================================
+|												Third Row 													  |
+===============================================================================================================
+*/
+
+.third-row-head{
+	background-image: url(image/header-image.jpg);
+	margin: 1% 0% 0% 0%;
+	padding: 1% 1% 1% 4%;
+	font-size: 20px;
+}
+
+.third-row-col1{
+	margin:1.5% 0% 0% 0%;
+}
+
+.icon-active{
+	padding: 1.5% 1% 2.5% 1%;
+	border-bottom:2px solid #eee;
+	float: left;
+	width: 100%;
+}
+
+.icon-inactive{
+	clear: left;
+	width: 100%;
+	padding: 2% 1% 3% 1%;
+	border-bottom:2px solid #eee;
+	color: #eee;
+	float: left;
+}
+
+.third-row-col2{
+	border: 1px solid #eee;
+	margin:2% 0% 2% 0%;
+}
+.third-row-col2 img{
+	margin: 3% 1.5% 3% 1.5%;
+	float: left;
+}
+.third-row-col2-text{
+	color: #bbb;
+	text-align: justify;
+	font-size: 13px;
+}
+
+/*
+===============================================================================================================================
+|												Footer Start 																  |
+===============================================================================================================================
+*/
+
+.footer{
+	margin:2% 0% 0% 0%;
+	background-color: #2D2425;
+	color: #fff;
+}
+.footer-text{
+	padding:1% 0% 3% 1%;
+	border-bottom:3px solid #120A2A; 
+}
+
+.footer-icon-top{
+	font-size: 28px;
+	background-color: #092A71;
+	color: #fff;
+}
+
+.footer-icon-text{
+	font-size: 13px;
+}
+
+.copyright-part{
+	margin: 1.5% 0% 1.5% 0%;
+	padding: 1% 0% 0% 1%;
+	color: #aaa;
+}
+
+.copyright-part img{
+	margin:-16px 0px 0px 8px;
+}
+
+
+.google-plus,.facebook,.twitter,.email,.youtube,.linkedin{
+	font-size: 34px;
+	padding:0% 0% 0% 2%;
+	background-color: #fff;
+}
+
+.google-plus{
+	color: red;
+}
+
+.facebook{
+	color: #08088A;
+}
+
+.twitter{
+	color: #00FFFF;
+}
+
+.email{
+	color: #000;
+}
+
+.youtube{
+	color:red;
+}
+
+.linkedin{
+	color: #0177B5;
+}
+
+/*
+============================================================================================================================================
+|                						Index page and Slide Show Page Design End												   		   |
+============================================================================================================================================
+
+============================================================================================================================================
+|											Our menu Page Design Start From Here 														   |
+============================================================================================================================================
+*/
+
+.breakfast-head{
+	background-color:#A4A4A4;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 0% 0% .2% 0%;
+	cursor: pointer;
+	text-shadow:0px -1px 1px #2E2E2E;
+	-o-text-shadow:0px -1px 1px #2E2E2E;
+	-webkit-text-shadow:0px -1px 1px #2E2E2E;
+	-moz-text-shadow:0px -1px 1px #2E2E2E;
+
+}
+
+.breakfast{
+	font-size:20px;
+	margin-top:1%;
+}
+
+.breakfast-order{
+	margin: 4% 30% 4% 4%;
+	font-size: 18px;
+	text-shadow:-1px 1px 1px #2E2E2E;
+	-webkit-text-shadow:-1px 1px 1px #2E2E2E;
+	-moz-text-shadow:-1px 1px 1px #2E2E2E;
+	-o-text-shadow:-1px 1px 1px #2E2E2E;
+
+}
+
+.breakfast-order:hover{
+	background-color: #5F4C0B;
+}
+
+.breakfast-more{
+	text-align: center;
+	margin: 1% 0% 1% 0%;
+}
+.more-view{
+	background-color: #101010;
+	color: #fff;
+	border-radius: 5px;
+}
+
+/*
+=============================================================================================================================
+|										About Us Page Start From here 														|
+=============================================================================================================================
+*/
+
+.resturent p{
+	font-size: 12px;
+	padding:2%;
+	color:#bbb;
+	cursor: pointer;
+	text-align: center;
+	transition:font-size 1.3s,color 1.3s;
+	-o-transition:font-size 1.3s,color 1.3s;
+	-webkit-transition:font-size 1.3s,color 1.3s;
+	-moz-transition:font-size 1.3s,color 1.3s;
+	transform: skew(-25deg); 
+	-webkit-transform: skew(-25deg); 
+	-o-transform: skew(-25deg); 
+	-moz-transform: skew(-25deg); 
+}
+.resturent p:hover{
+	font-size: 17px;
+	color: #322;
+}
+
+.resturent img{
+	opacity: 1;
+
+}
+.resturent img:hover{
+	opacity: .85;
+	cursor: pointer;
+}
+.about-resturent img{
+	float: left;
+	margin-right:10%;
+	cursor: pointer;
+	opacity: 1;
+}
+.about-resturent img:hover{
+	opacity: .7;
+}
+
+.about-resturent .text{
+	margin-top:7%;
+	color:#ccc;
+	font-size:13px;
+	transition:font-size 1.3s,color 1.3s;
+	-webkit-transition:font-size 1.3s,color 1.3s;
+	-moz-transition:font-size 1.3s,color 1.3s;
+	-o-transition:font-size 1.3s,color 1.3s;
+ 
+}
+
+.about-resturent .text:hover{
+	font-size: 17px;
+	color:#322;
+}
+
+/*
+===================================================================================================================
+|														Feature Page 											  |
+===================================================================================================================
+*/
+.feature img{
+	transition:transform 2s,width 2s;
+	-webkit-transition:transform 2s,width 2s;
+	-moz-transition:transform 2s,width 2s;
+	-o-transition:transform 2s,width 2s;
+	float: left;
+	margin-right:4%; 
+}
+
+.feature img:hover{
+	transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	width: 60%;
+}
+
+.feature{
+	text-align: justify;
+	font: 20px;
+	color: #b5f;
+}
+
+.feature a{
+	font-size: 22px;
+}
+
+.feature a:hover{
+	color:red;
+}
